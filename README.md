@@ -1,0 +1,2 @@
+# TheCivyanquarkInspector
+The Civyanquark Inspector is a PowerShell utility that can target individual IPs, ranges, entire subnets, or a mixture any of those things. When run against a Windows target, this script will run one or more modules to gather information from the selected targets. This script was developed for blue teams to gather potentially useful information from unfamiliar systems/networks where they otherwise have little to know visibility. Requires administrator privileges on target systems.
