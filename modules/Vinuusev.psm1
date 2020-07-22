@@ -6,7 +6,7 @@
 
 #NOTE: This is a module that is intended to be used with The Civyanquark Inspector (https://github.com/PresComm/TheCivyanquarkInspector).
 
-#Function for pulling the BitLocker status from targets and placing it in output files, if specified
+#Function for pulling a list of services from targets and placing it in output files, if specified
 function use-module(){
     $FQDN = (Gwmi win32_computersystem –computer $global:IP).DNSHostName+"."+(Gwmi win32_computersystem –computer $global:IP).Domain
 				
